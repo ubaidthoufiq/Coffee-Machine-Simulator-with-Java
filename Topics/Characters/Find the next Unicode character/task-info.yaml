@@ -1,0 +1,27 @@
+type: code
+files:
+  - name: src/Main.java
+    visible: true
+    text: |-
+      import java.util.Scanner;
+      
+      public class Main {
+          public static void main(String[] args) {
+              // Create a new scanner object for user input
+              Scanner input = new Scanner(System.in);
+      
+              // Waiting for user input
+              char inputChar = input.next().charAt(0);
+      
+              // Perform operation on character here and print the result
+      
+          }
+      }
+    learner_created: false
+feedback_link: https://hyperskill.org/learn/step/42166#comment
+status: Solved
+feedback:
+  message: <html>Correct solution</html>
+  time: "Fri, 09 Feb 2024 19:56:55 UTC"
+record: -1
+submission_language: java17

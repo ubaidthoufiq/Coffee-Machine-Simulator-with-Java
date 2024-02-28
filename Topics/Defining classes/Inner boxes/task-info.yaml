@@ -1,0 +1,25 @@
+type: code
+files:
+  - name: src/Main.java
+    visible: true
+    highlight_level: NONE
+    text: // write your class here
+    learner_created: false
+feedback_link: https://hyperskill.org/learn/step/2946#comment
+status: Failed
+feedback:
+  message: |
+    Compilation error
+    Main.java:26: error: <identifier> expected
+        public void static main(double length, double height, double width) {
+                   ^
+    Main.java:26: error: '(' expected
+        public void static main(double length, double height, double width) {
+                    ^
+    Main.java:26: error: invalid method declaration; return type required
+        public void static main(double length, double height, double width) {
+                           ^
+    3 errors
+  time: "Wed, 28 Feb 2024 16:57:08 UTC"
+record: -1
+submission_language: java17

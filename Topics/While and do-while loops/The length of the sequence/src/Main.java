@@ -1,0 +1,17 @@
+import java.util.Scanner;
+
+class Main {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        int count = 0;
+        while (true) {
+            int temp = scanner.nextInt();
+            if (temp == 0) {
+                break;
+            } else {
+                count++;
+            }
+        }
+        System.out.println(count);
+    }
+}

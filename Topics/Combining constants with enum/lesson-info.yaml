@@ -1,0 +1,8 @@
+content:
+  - Theory
+  - Enum with two constants
+  - Days of week
+  - Reasons to use enum
+  - Currencies
+  - Iterating over enum values
+  - Hidden enumeration
